@@ -5,8 +5,10 @@ from typing import Any, Dict, List, Literal, Optional
 from dataclasses import asdict, dataclass, field
 
 
-CHATGLM_REPO_NAME = "THUDM/chatglm-6b"
-CHATGLM_VERSION = "a8ede826cf1b62bd3c78bdfb3625c7c5d2048fbd"
+#CHATGLM_REPO_NAME = "THUDM/chatglm-6b"
+#CHATGLM_VERSION = "a8ede826cf1b62bd3c78bdfb3625c7c5d2048fbd"
+CHATGLM_REPO_NAME = "..\\chatglm-6b-noint"
+CHATGLM_VERSION = "a10da4c68b5d616030d3531fc37a13bb44ea814d"
 
 
 @dataclass
